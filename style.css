@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -142,3 +143,149 @@ section.first > div{
     top: 63px;
     left: 54px;
 }
+=======
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+}
+.main{
+    background-image: url(images/Main.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top:0;
+}
+nav{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+nav img{
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 1;
+}
+nav button{
+    position: relative;
+    z-index: 1;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 65px) ;
+    color: white ;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-weight: 400px;
+    font-size: 15px;
+    text-align: center;
+}
+.line{
+    height: 8px;
+    background-color: rgb(45, 44, 44);
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color:rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid rgba(232, 227, 227, 0.5);
+    cursor : pointer;
+    border-radius: 4px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 9px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.main input{
+    padding: 9px 100px 9px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(232, 227, 227, 0.5);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :nth-child(1){
+    font-weight: bold;
+    font-size: 37px;
+}
+.first > div :nth-child(2){
+    font-size: 20px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    width: 293px;
+    top: 63px;
+    left: 54px;
+}
+>>>>>>> df7677a6bfad649d28982ed250fa42a947acb536

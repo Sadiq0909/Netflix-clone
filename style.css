@@ -33,7 +33,7 @@ nav{
 }
 nav img{
     color: red;
-    width: 120px;
+    width: 130px;
     position: relative;
     z-index: 1;
 }
@@ -69,6 +69,8 @@ nav button{
     text-align: center;
 }
 .line{
+    z-index: 120;
+    position: relative;
     height: 8px;
     background-color: rgb(45, 44, 44);
 }
@@ -172,4 +174,29 @@ section.first > div{
 }
 .faqbox:hover{
     background-color: #403f3f;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 20px;
+}
+footer .span{
+    padding: 20px 0;
+    color: rgb(214, 209, 209);
+    font-size: 15px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-i{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    font-size: 11px;
+    color: rgb(135, 132, 132);
 }
